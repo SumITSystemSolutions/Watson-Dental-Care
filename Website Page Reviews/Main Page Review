@@ -1,0 +1,76 @@
+Watson Dental Care Site Review
+
+Main page review took an hour for 2 to review. 
+Try to keep pricing at 40-60 and hour. Look at 50 for middle ground. 
+
+Quote for X hours for the site with details on fixes 
+
+This document is a review of the https://dentistorlandoflorida.com dental site for all functional issues, design flaws and possible improvements. WILL NEED SOCIAL MEDIA REVIEW AT A LATER DATE
+
+Site does not like Opera. Look at Find us on facebook footer vs firefox and chrome
+Site has several unindexed pages for SEO and this does not work anymore
+
+Main Page
+-----------------------
+
+Site Style
+	Light blue on white with gray scale 
+	White background 
+	Blue font is misleading with half being links and half being text adding to user confusion 
+	Pages do not fully extend to the sides
+
+Page Main
+https://dentistorlandoflorida.com
+Favacon header - 
+	REMOVE GOOGLE+ . Google+ Died in 4/2018. This is dead for 2.5+ years
+	Navigation works. 
+	Needs to be sticky or at the bottom of the page. 
+Watson Home Logo header
+	Navigation to home works
+	Can review sizing and maybe logo redesign
+	Location information Needs to be moved to bottom and locations page. It is clutter where it is now
+Menu Bar
+	Needs to be redesigned. Different color. White on Off black text is hard to look at.
+	Sticky menu is good
+	Menu function is good. Need to add carrot on the items with submenus for user experience
+	Contact Us needs to be on the footer and location detail needs to go to the "Our Offices" page
+Carousel 
+	Why is it literally just two images…
+	Need an image for each main menu tab landing page add a slide for appointments
+	On Click the carousel will freeze on that option
+	Remove the slide select navigation and play pause feature
+	Add overlay on dentist to click on appointment. Maybe each dentist gets a slide
+Body Content
+	Width needs to change. Needs to be brought in just a tad.
+	Need to tapper back the text on this page. Needs to be a why I care, Call to authority, and I do W to help X accomplish Y with Z kind of approach. Not a put me in an early grave I'm so fucking bored word vomit.
+	There is a 4th appointment link in the text. Remove this now!
+	Why is there a page for each area serviced? This is a negative to Google SEO in 2020+ and hurts the site.
+	Watson Dental Care Is The Best Dentist In Orlando link sends user to an unindexed page. Again this hurts a site for SEO in Google's indexing in 2020+
+	Side section
+		Style needs to change for better smile program
+		3rd appointment link. Redundant as shit. Not needed at all. It is just clutter and sloppy at this point.
+		Dead link to smilereminder is dead. Site has been dead for a while. Needs to be removed
+	Google review subsection
+	It is outdated. Need to review connection and repair. Can look at removing all together and adding testimonial page 
+	Enjoy the Best Dentist Experience in Orlando subsection
+		Remove. Just unnecessary and sloppy. All of this was said in the above sections
+	Card subsection
+		Need to make the same length for each for style reasons.
+		Need to change font style and background color for user experience
+		Even though it is presenting the menu links again it is doing it in a way that is good and easy for the users to understand and decide.
+	Footer
+		Quick Links
+			6th appointment link. This one is okay since it is in the quick link location
+			Need to look at possibly adding 2 more important site links 
+		Search Watson Dental bar
+			It does search but send to user to search page where results are displaying the page in a thin column. They needed to be fired for building this page.
+			If search remains then the results need to be 
+		Find us on facebook 
+			Section is broken for Opera but not firefox, chrome, brave
+			Needs to be removed if favacons are around and other links for social media exist
+		Orlando Dental Office Google map
+			If required to stay needs redesign to look good. Can add the Office location data here as well with link to google maps
+			On click for map brings up a broken pop up that never loads. Google maps service blocked by client….
+		Bottom Footer Area
+			Zip code and area served needs to go since it is in the pages already. This is an SEO trick again that does not help or hurt. This needs to be in the meta data and the area serviced pages
+			Favacons need to be padded 
