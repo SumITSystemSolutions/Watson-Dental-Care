@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Deploy your website in less than 60 seconds.">
     <!-- * look to ogp.me for more info on how this works -->
-    <meta property="og:title" content="Hosting site">
+    <meta property="og:title" content="Summit Systems solutions ">
     <meta property="og:description" content="Description goes here">
     <meta property="og:type" content="website">
     <!-- * we can set a image for the preview -->
     <meta property="og:image" content="http://">
     <meta property="og:url" content="http://hosting">
-    <title>Hoisting Site</title>
+    <title>summit system solutions</title>
     <!-- * adding the inter google font  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -23,6 +23,71 @@
 </head>
 
 <body>
+    <!-- * this is where our navigation is going to be put -->
+    <header>
+        <nav class="nav collapsible">
+            <a aria-label="moshify" class="nav__brand" href="/">Add logo</a>
+            <svg class="icon icon--white nav__toggler">
+                <!-- * this is the correct path that we need to enter to see the svg -->
+                <use href="images/sprite.svg#menu"></use>
+            </svg>
+            <ul class="list nav__list collapsible__content">
+                <li class="nav__item"><a href="#">Nav 1</a></li>
+                <li class="nav__item"><a href="#">Nav 2</a></li>
+                <li class="nav__item"><a href="#">Nav 3</a></li>
+                <li class="nav__item"><a href="#">Nav 4</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- TODO: add the hero component -->
+    <!-- * Task has been completed  -->
+
+    <!-- * we are using the specialize class hero to overwrite the default styling from the other classes so we can get it to do what we want  -->
+    <section class="block block--dark block--skewed-left hero">
+        <div class="container grid grid--1x2">
+            <header class="block__header hero__content" data-aos="flip-left">
+                <h1 class="block__heading">Summit system solutions</h1>
+                <p class="hero__tagline">Tagline</p>
+                <a href="" class="btn btn--accent btn--stretched">optional</a>
+            </header>
+            <!-- <picture data-aos="flip-right">
+                <source type="image/webp" srcset="images/banner.webp 1x, images/banner@2x.webp 2x">
+                <source type="image/png" srcset="images/banner.png 1x, images/banner@2x.png 2x">
+                <img class="hero__img" src="images/banner.png" alt="">
+            </picture> -->
+        </div>
+    </section>
+
+    <!-- TODO: Add the domain block -->
+    <!-- * Task has been completed -->
+
+    <section class="block container block-domain" data-aos="flip-left">
+        <header class="block__header">
+            <h2>Starting at $9 per month</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, sint?</p>
+        </header>
+        <div class="input--group">
+            <input aria-label="Domain" type="text" class="input" placeholder="Enter domain name here">
+            <!-- ! the button is falling out of the container  -->
+            <!-- TODO: we need to fix the button on mobile screens so this problem does not continue to exist -->
+            <button class="btn btn--accent">
+                <svg class="icon icon--white">
+                    <!-- * this is the correct path that we need to enter to see the svg -->
+                    <use href="images/sprite.svg#search"></use>
+                </svg>
+                Search
+            </button>
+        </div>
+        <ul class="list block-domain__prices">
+            <li><span class="badge badge--secondary">.com $9</span></li>
+            <li>.sg $10</li>
+            <li>.space $11</li>
+            <li>.info $14</li>
+            <li>.net $10</li>
+            <li>.xyz $10</li>
+        </ul>
+    </section>
 
     <!-- TODO: Add the plan block -->
     <!-- * Task has been completed -->
@@ -98,24 +163,181 @@
         </div>
     </section>
 
+    <!-- TODO Add the features block -->
+
+    <section class="container block">
+        <header class="block__header">
+            <h2 class="block__heading">Host On The Cloud to Keep Growing</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, id!
+            </p>
+        </header>
+        <!-- * using a article here because the feature component can stand on its own this is better to use semantically -->
+        <!-- * this Article is being used to show off this standalone content -->
+        <article class="grid grid--1x2 feature">
+            <!-- ! this is how we use AOS -->
+            <div class="feature__content" data-aos="fade-right">
+                <span class="icon-container">
+                    <svg class="icon icon--primary">
+                        <!-- * this is the correct path that we need to enter to see the svg -->
+                        <use href="images/sprite.svg#easy"></use>
+                    </svg>
+                </span>
+                <h3 class="feature__heading">Super Easy to Use</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi accusantium suscipit doloremque
+                    cupiditate? Provident hic eius ducimus neque, aspernatur quidem!
+                </p>
+                <a href="#" class="link-arrow">Learn More</a>
+            </div>
+            <picture data-aos="zoom-in-right">
+                <source type="image/webp" srcset="images/easy1x.webp 1x, images/easy2x.webp 2x">
+                <source type="image/png" srcset="images/easy1x.jpg 1x, images/easy2x.jpg 2x">
+                <img class="feature__img" src="images/easy2x.jpg" alt="">
+            </picture>
+        </article>
+
+        <article class="grid grid--1x2 feature">
+            <picture>
+                <source type="image/webp" srcset="images/fast1x.webp 1x, images/fast2x.webp 2x">
+                <source type="image/png" srcset="images/fast1x.jpg 1x, images/fast2x.jpg 2x">
+                <img class="feature__img" src="images/fast2x.jpg" alt="">
+            </picture>
+            <div class="feature__content">
+                <span class="icon-container">
+                    <svg class="icon icon--primary">
+                        <!-- * this is the correct path that we need to enter to see the svg -->
+                        <use href="images/sprite.svg#computer"></use>
+                    </svg>
+                </span>
+                <h3 class="feature__heading">Simply fast websites</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi accusantium suscipit doloremque
+                    cupiditate? Provident hic eius ducimus neque, aspernatur quidem!
+                </p>
+                <a href="#" class="link-arrow">Learn More</a>
+            </div>
+        </article>
+
+        <article class="grid grid--1x2 feature">
+            <div class="feature__content">
+                <span class="icon-container">
+                    <svg class="icon icon--primary">
+                        <!-- * this is the correct path that we need to enter to see the svg -->
+                        <use href="images/sprite.svg#settings"></use>
+                    </svg>
+                </span>
+                <h3 class="feature__heading">Wordpress made easy</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi accusantium suscipit doloremque
+                    cupiditate? Provident hic eius ducimus neque, aspernatur quidem!
+                </p>
+                <a href="#" class="link-arrow">Learn More</a>
+            </div>
+            <picture>
+                <source type="image/webp" srcset="images/wordpress1x.webp 1x, images/wordpress2x.webp 2x">
+                <source type="image/png" srcset="images/wordpress1x.jpg 1x, images/wordpress2x.jpg 2x">
+                <img class="feature__img" src="images/wordpress2x.jpg" alt="">
+            </picture>
+        </article>
+
+        <article class="grid grid--1x2 feature">
+            <picture>
+                <source type="image/webp" srcset="images/support1x.webp 1x, images/support2x.webp 2x">
+                <source type="image/png" srcset="images/support1x.jpg 1x, images/support2x.jpg 2x">
+                <img class="feature__img" src="images/support2x.jpg" alt="">
+            </picture>
+            <div class="feature__content">
+                <span class="icon-container">
+                    <svg class="icon icon--primary">
+                        <!-- * this is the correct path that we need to enter to see the svg -->
+                        <use href="images/sprite.svg#clock"></use>
+                    </svg>
+                </span>
+                <h3 class="feature__heading">24/7 Expert Support</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi accusantium suscipit doloremque
+                    cupiditate? Provident hic eius ducimus neque, aspernatur quidem!
+                </p>
+                <a href="#" class="link-arrow">Learn More</a>
+            </div>
+        </article>
+    </section>
+
+    <!-- TODO: add the showcase block -->
+
+    <section class=" block block--dark block--skewed-right showcase--block">
+        <header class="block__header">
+            <h2>Completed section </h2>
+        </header>
+        <div class="container grid grid--1x2">
+            <!-- * we had to move the class to this element because this is the grid item and justify-self only works on grid items  -->
+            
+
+            <ul class="list" data-aos="zoom-out-up">
+                <li>
+                    <div class="media">
+                        <div class="media__image">
+                            <svg class="icon icon--primary">
+                                <!-- * this is the correct path that we need to enter to see the svg -->
+                                <use href="images/sprite.svg#snap"></use>
+                            </svg>
+                        </div>
+                        <div class="media__body">
+                            <h3 class="media__title">Add content</h3>
+                            
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="media">
+                        <div class="media__image">
+                            <svg class="icon icon--primary">
+                                <!-- * this is the correct path that we need to enter to see the svg -->
+                                <use href="images/sprite.svg#growth"></use>
+                            </svg>
+                        </div>
+                        <div class="media__body">
+                            <h3 class="media__title">Add content</h3>
+                            
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="media">
+                        <div class="media__image">
+                            <svg class="icon icon--primary">
+                                <!-- * this is the correct path that we need to enter to see the svg -->
+                                <use href="images/sprite.svg#wordpress"></use>
+                            </svg>
+                        </div>
+                        <div class="media__body">
+                            <h3 class="media__title">Add content</h3>
+                            
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </section>
+
     <!-- TODO: Add the testimonal block -->
 
     <section class="block">
         <header class="block__header">
-            <h2>What our Customers are Saying</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, deleniti.</p>
+            <h2>testimonal......</h2>
+          
         </header>
 
         <div class="container" data-aos="slide-up">
             <div class="card testimonial">
                 <div class="grid grid--1x2">
                     <div class="testimonial__image">
-                        <img src="images/testimonial.jpg" alt="Happy customer">
-                        <span class="icon-container icon-container--accent">
-                            <svg class="icon icon--white icon--small">
-                                <use href="images/sprite.svg#quotes"></use>
-                            </svg>
-                        </span>
+                        
                     </div>
                     <blockquote class="quote">
                         <p class="quote__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo corrupti
@@ -133,10 +355,7 @@
                                         <use href="images/sprite.svg#line"></use>
                                     </svg>
                                 </div>
-                                <div class="media__body">
-                                    <h3 class="media__title quote__author">John Smith</h3>
-                                    <p class="company">ABC Company </p>
-                                </div>
+                               
                             </div>
                         </footer>
 
@@ -231,8 +450,9 @@
                     </ul>
                 </div>
             </section>
+            <!--  -->
 
-
+      
         </div>
     </footer>
 
